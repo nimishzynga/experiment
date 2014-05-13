@@ -70,6 +70,7 @@ def insertDatabase(title, img, price):
     insertPost(title+"image", ppid)
     pmid = getPostId(title+"image")
     insertMeta(pmid, "_wp_attached_file", img)
+    insertMeta(ppid, "_thumbnail_id", pmid)
 
 insertDatabase("my fav jaljeera", "bhawani/jaljeera.jpeg", 30)
 

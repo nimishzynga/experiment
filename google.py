@@ -38,4 +38,4 @@ def findimage(name, filename):
         print("Iteration done.")
         return False
 
-findimage("aachi garam masala", "testfile.jpg")
+#findimage("aachi garam masala", "testfile.jpg")
